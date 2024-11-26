@@ -1,11 +1,18 @@
-import java.util.Date;
 
-public class Alguel {
-    
-    Date datainicio;
-    Date datafim;
-    Double valor;
-    Boolean status;
-    Livro livro;
-    String locatorio;
+import java.util.ArrayList;
+import java.util.List;
+
+public class Aluguel {
+
+    String id;
+    String data;
+    Boolean devolvido;
+    List itensAluguel = new ArrayList();
+
+    public void adicionarItemAluguel(ItemAluguel itemAluguel) {
+
+        this.itensAluguel.add(ItemAluguel);
+
+    }
+
 }
